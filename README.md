@@ -26,16 +26,16 @@ Please note that the authors are not programmers, so please excuse inefficient o
 
 The codes should be executed in the following order to obtain the technical and economic potential:
 
-1. ERA5_nc_to_mat_conversion
+1. ERA5_nc_to_mat_conversion (ERA5 data from https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview)
 2. Wind_Profile_Struct
 3. Technical_Potential
 4. Economic_Potential
 
-Optionally, the following codes can be run for further data analysis and visualisation
-a. Bias_Correction_Analysis
-b. Check_for_Disproportional_Wind_Speeds
-c. Analysis_Technical_Potential
-d. Sensitivity_Analysis
+Optionally, the following codes can be run for further data analysis and visualisation:
+1. Bias_Correction_Analysis
+2. Check_for_Disproportional_Wind_Speeds
+3. Analysis_Technical_Potential
+4. Sensitivity_Analysis
 
 In each code file, there are descriptions for used data, calculations and their underlying assumptions.
 
