@@ -1,18 +1,5 @@
 function [CAPEX, OPEX] = cost_model_onshore(rated_power,nb_turbines,rotor_diameter,hub_height,aep,drivetrain)
 
-    %% Turbine characteristics (based on Fingersh et al. (2005)
-%     clear  
-%     clc
-%     turb = 1;
-%     rated_power = 2600; % kW
-%     nb_turbines = 20;
-%     rotor_diameter = 121.2; % m
-%     hub_height = 90.1; % m
-%     water_depth = 3.74; % m
-%     dist_to_shore = 51.92; % km
-%     aep = 9702576;
-%     power_prod_ann{:,1};
-
     %% Currency conversion rate and NREL correction factor
 
     currency = readmatrix('Currency_Conversion.csv','VariableNamingRule','preserve');
