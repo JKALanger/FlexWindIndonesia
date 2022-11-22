@@ -1,6 +1,7 @@
 # FlexWindIndonesia
 
 Code and data underlying the paper "Introducing site selection flexibility to technical and economic onshore wind potential assessments: new method with application to Indonesia"
+
 Authors: Jannis Langer1, Michiel Zaaijer2, Jaco Quist1, Kornelis Blok1
 
 1Delft University of Technology, Faculty of Technology, Policy and Management, Department of Engineering Systems and Services
@@ -14,13 +15,14 @@ Kluyverweg 1
 The Netherlands
 
 Corresponding author: Jannis Langer
+
 Contact: j.k.a.langer@tudelft.nl
 
 Jaffalaan 5 
 2628 BX Delft
 The Netherlands
 
-Please note that the authors are not programmers, so please excuse inefficient or "dirty" code and feel free to contact us in case of bugs, mistakes, or suggestions for improvement.
+Please note that we are not programmers, so please excuse inefficient or "dirty" code and feel free to contact us in case of bugs, mistakes, or suggestions for improvement.
 
 ++ Inventory of code and recommended work flow ++
 
