@@ -22,7 +22,13 @@ Jaffalaan 5
 2628 BX Delft
 The Netherlands
 
-Please note that we are not programmers, so please excuse inefficient or "dirty" code and feel free to contact us in case of bugs, mistakes, or suggestions for improvement.
+Please note that we are not programmers, so please excuse inefficient or "dirty" code and feel free to contact us in case of bugs, mistakes, or suggestions for improvement. 
+
+IMPORTANT: Due to upload limitations, not all original input data could be uploaded here. Please download the missing data from the 4TU repository under the DOI 10.4121/19625385 and link https://data.4tu.nl/articles/dataset/Data_underlying_the_paper_UNDER_REVIEW_Introducing_site_selection_flexibility_to_techno-economic_onshore_wind_potential_assessments_new_method_with_application_to_Indonesia_/19625385
+
+The missing data are:
+- ERA5_profiles.mat
+- Onshore_Sites_v2.0.csv
 
 ++ Inventory of code and recommended work flow ++
 
@@ -33,12 +39,15 @@ The codes should be executed in the following order to obtain the technical and 
 3. Technical_Potential
 4. Economic_Potential
 
-Optionally, the following codes can be run for further data analysis and visualisation:
+From the folder auxiliary_scripts, the following functions must be called for the technical and economic potentials:
+1. floor_wind_farm
+2. cost_model_onshore
+3. LCOE_calc
+
+In the folder auxiliary_scripts, there are optional codes for data analysis and visualisation as shown in the paper:
 1. Bias_Correction_Analysis
 2. Check_for_Disproportional_Wind_Speeds
 3. Analysis_Technical_Potential
 4. Sensitivity_Analysis
 
 In each code file, there are descriptions for used data, calculations and their underlying assumptions.
-
-Due to upload limitations, not all original input data could be uploaded here. To download the missing datasets, please refer to the 4TU repository under the DOI 10.4121/19625385 and link https://data.4tu.nl/articles/dataset/Data_underlying_the_paper_UNDER_REVIEW_Introducing_site_selection_flexibility_to_techno-economic_onshore_wind_potential_assessments_new_method_with_application_to_Indonesia_/19625385
