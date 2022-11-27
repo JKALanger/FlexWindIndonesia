@@ -75,7 +75,7 @@ xlim([0 10]);
 ylim([0 150]);
 xline(2);
 xlabel('Weighted Average 100 m GWA Wind Speed [m/s]')
-ylabel('Median LCOE [US$(2021)/kWh]')
+ylabel('Median LCOE [US¢(2021)/kWh]')
 
 print(gcf,'Figure_6_LCOE_vs_Subareas_v2.0.png','-dpng','-r300');
 
